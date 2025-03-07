@@ -49,6 +49,29 @@ pip install -r requirements.txt
 ```sh
 robot -d LoginResult Test_case/
 ```
+# 🛠️ how to run Tests on allure report 
+1. **1️⃣ Install the library plugin**:
+```sh
+pip install allure-robotframework
+```
+2. **Add allure-robotframework package to the PyCharms:**
+```sh
+Go to File->Settings ->Project:SwagLabs_Robot: Framework-Automation ->Python Interpreter.
+Click on the “+” sign and enter allure-r in the search bar. It will show a list of packages. Select the “allure-robotframework” package and click on the “Install Package”.
+Once the package is installed, we will see the message that the package is installed successfully.
+```
+3. **Run tests and save Allure results:**
+```sh
+robot --listener allure_robotframework:allure-results --outputdir output/robot Test_case.
+```
+4. **Generate the Allure report:**
+```sh
+allure generate allure-results --clean -o allure-report.
+```
+5. **. Open the report**
+```sh
+allure open allure-report
+```
 # Project Highlights
 - Followed ATDD principles to align development efforts with stakeholder expectations.
 - Ensured scalability of tests using the POM framework.
@@ -58,6 +81,12 @@ robot -d LoginResult Test_case/
 - **screenshot 1**:![selenium-screenshot-18](https://github.com/user-attachments/assets/99a680f0-5828-4122-be08-425d1d793f9d)
 - **screenshot 2**:![selenium-screenshot-2](https://github.com/user-attachments/assets/42a2e175-1b20-4d15-baee-53c50c52b43e)
 - **screenshot 3**:![selenium-screenshot-4](https://github.com/user-attachments/assets/d17fff2a-9c3d-46b4-998f-bb63211ef55d)
+# 🖼️ Screenshots of the report dashboard allure:
+- **screenshot 1**:<img width="919" alt="alluredashbaord" src="https://github.com/user-attachments/assets/e1317df8-3191-4405-9bf7-fa04c7708b7f" />
+- **screenshot 2**:<img width="919" alt="image" src="https://github.com/user-attachments/assets/f443b700-2204-4ea9-ad1e-d4631d3e41b5" />
+- **screenshot 3**:<img width="762" alt="image" src="https://github.com/user-attachments/assets/b1e9a90d-4e78-4f9c-81ea-f8193e94ca31" />
+- **screenshot 4**:<img width="382" alt="image" src="https://github.com/user-attachments/assets/19c34415-ccd3-4bf7-8ee8-8cb341e27f11" />
+- **screenshot 5**:<img width="920" alt="image" src="https://github.com/user-attachments/assets/08e93312-3206-44e1-b32c-e906375ab736" />
 # 📄 Test Documentation
 - **test case**:[https://docs.google.com/spreadsheets/d/1ODGU2cPirxcl9CHDJhzdf84QIeR7ovBsek704sO9ZpA/edit?gid=1026433765#gid=1026433765]
 - **Bug report**:[https://docs.google.com/spreadsheets/d/1Yl7HQA33fdUgWil-AJVE7Z6vC4u6MBpwX6euKpTaRjw/edit?gid=0#gid=0]
