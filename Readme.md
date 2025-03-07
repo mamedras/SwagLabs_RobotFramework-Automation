@@ -86,8 +86,7 @@ allure open allure-report
 - **screenshot 2**:<img width="919" alt="image" src="https://github.com/user-attachments/assets/f443b700-2204-4ea9-ad1e-d4631d3e41b5" />
 - **screenshot 3**:<img width="762" alt="image" src="https://github.com/user-attachments/assets/b1e9a90d-4e78-4f9c-81ea-f8193e94ca31" />
 - **screenshot 4**:<img width="382" alt="image" src="https://github.com/user-attachments/assets/19c34415-ccd3-4bf7-8ee8-8cb341e27f11" />
-- **screenshot 5**:
-<img width="920" alt="image" src="https://github.com/user-attachments/assets/08e93312-3206-44e1-b32c-e906375ab736" />
+- **screenshot 5**:<img width="920" alt="image" src="https://github.com/user-attachments/assets/08e93312-3206-44e1-b32c-e906375ab736" />
 # 📄 Test Documentation
 - **test case**:[https://docs.google.com/spreadsheets/d/1ODGU2cPirxcl9CHDJhzdf84QIeR7ovBsek704sO9ZpA/edit?gid=1026433765#gid=1026433765]
 - **Bug report**:[https://docs.google.com/spreadsheets/d/1Yl7HQA33fdUgWil-AJVE7Z6vC4u6MBpwX6euKpTaRjw/edit?gid=0#gid=0]
