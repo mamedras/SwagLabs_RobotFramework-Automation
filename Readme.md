@@ -78,9 +78,9 @@ allure open allure-report
 - Validated core website functionalities, improving overall site reliability by automating critical workflows.
 - Leveraged Robot Framework, Python, and Selenium for an efficient and maintainable automation setup.
 # 🖼️ Screenshots of Failed Tests
-- **screenshot 1**:![selenium-screenshot-18](https://github.com/user-attachments/assets/99a680f0-5828-4122-be08-425d1d793f9d)
-- **screenshot 2**:![selenium-screenshot-2](https://github.com/user-attachments/assets/42a2e175-1b20-4d15-baee-53c50c52b43e)
-- **screenshot 3**:![selenium-screenshot-4](https://github.com/user-attachments/assets/d17fff2a-9c3d-46b4-998f-bb63211ef55d)
+- **screenshot 1**:![selenium-screenshot-1](https://github.com/user-attachments/assets/d62dff51-e91a-4afc-8fbc-5fa96c225c93)
+- **screenshot 2**:![selenium-screenshot-8](https://github.com/user-attachments/assets/c1203274-28bd-4997-8beb-4255ec5f054f)
+- **screenshot 3**:![selenium-screenshot-6](https://github.com/user-attachments/assets/b8cdd72d-0adf-4681-aaa1-94ac0ad8c56b)
 # 🖼️ Screenshots of the report dashboard allure:
 - **screenshot 1**:<img width="919" alt="alluredashbaord" src="https://github.com/user-attachments/assets/e1317df8-3191-4405-9bf7-fa04c7708b7f" />
 - **screenshot 2**:<img width="919" alt="image" src="https://github.com/user-attachments/assets/f443b700-2204-4ea9-ad1e-d4631d3e41b5" />
