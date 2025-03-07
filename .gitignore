@@ -1,0 +1,23 @@
+# Ignore HTML files
+*.html
+
+# Ignore XML files
+*.xml
+# Ignore JSON files
+*.json
+# Ignore css files
+*.css
+
+# Ignore .idea directory
+.idea/
+
+# Ignore allure directory
+.allure-report/
+.allure-results/
+
+# Ignore png image directory
+*.png
+# Ignore pycahe file
+.__pycache__/
+*.pyc
+*.pyo
